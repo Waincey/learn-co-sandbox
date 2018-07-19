@@ -1,0 +1,48 @@
+<! DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>Animal Quiz</title>
+     <link rel="stylesheet" type="text/css" href="css/animalquiz.css">
+ </head>
+ <body>
+   <div class="container">
+     <h1 class="header">Animal Quiz</h1>
+
+     <h4 class="caption">Find out what animal you are!</h4>
+     <div class="question">
+     <form action="/results" method="post">
+     <h2>How fast do you do things?</h2>
+       <input type="radio" name="speed" value="3">Quickly<br>
+       <input type="radio" name="speed" value="2">Take my time<br>
+       <input type="radio" name="speed" value="1">It depends
+       <h2>How talktive are you?</h2>
+       <input type="radio" name="talk" value="2">Quiet<br>
+       <input type="radio" name="talk" value="1">Chatty<br>
+       <input type="radio" name="talk" value="3">Learning a new language<br>
+       <h2> Would you prefer...</h2>
+         <input type="radio" name="prefer" value="1" >Rock climbing<br>
+         <input type="radio" name="prefer" value="3">Running<br>
+         <input type="radio" name="prefer" value="2">None<br>
+           <h2>What time are you most active?</h2>
+       <input type="radio" name="time" value="2">Morning<br>
+       <input type="radio" name="time" value="1">Afternoon<br>
+       <input type="radio" name="time" value="3">Night<br>
+       <h2>One last question, are you... </h2>
+         <input type="radio" name="you are" value="1" >An introvert<br>
+         <input type="radio" name="you are" value="3">An extrovert<br>
+         <input type="radio" name="you are" value="2">Combination<br>
+       <!-- <h2> How experienced are you with baking?</h2>
+<br> -->
+
+         <!-- <input type="radio" name="skill" value="A" >I'm an expert
+       <input type="radio" name="skill" value="B"> I've baked a bit <br>
+         <input type="radio" name="skill" value="C">I've never baked anything really
+           <br> -->
+         <button type = "submit" class="new"> You are... </button>
+     </form>
+   </div>
+ </div>
+
+ </body>
+ </html>
